@@ -28,7 +28,7 @@ def dirToDataframe(dataDir):
 
 if __name__ == '__main__':
     fullTexts = dirToDataframe('full_texts')
-    fullTexts.to_csv('full_texts.csv', index=False)
+    fullTexts.to_csv('full_texts.csv', index_label='id')
 
     # sizeNormalizedTexts = dirToDataframe('size_normalized_texts')
     # sizeNormalizedTexts.to_csv('size_normalized_texts.csv', index=False)
