@@ -15,6 +15,12 @@ jupyterlab = "*"
 streamlit = "*"
 matplotlib = "*"
 plotly-express = "*"
+interpret = "*"
+shap = "*"
+eli5 = "*"
+lime = "*"
+nltk = "*"
+seaborn = "*"
 
 [requires]
 python_version = "3.7"
