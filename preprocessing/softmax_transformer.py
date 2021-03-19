@@ -6,5 +6,5 @@ class SoftmaxTransformer(TransformerMixin):
     def fit(self, X):
         return self
 
-    def transform(X):
+    def transform(self, X):
         return np.apply_along_axis(softmax, 1, X)
