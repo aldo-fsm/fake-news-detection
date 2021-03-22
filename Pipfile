@@ -21,6 +21,8 @@ eli5 = "*"
 lime = "*"
 nltk = "*"
 seaborn = "*"
+dash = "*"
+dash-bootstrap-components = "*"
 
 [requires]
 python_version = "3.7"
