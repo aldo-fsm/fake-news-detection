@@ -1,4 +1,7 @@
 import re
+import nltk
+
+stopwords = nltk.corpus.stopwords.words('portuguese')
 
 # import spacy
 # nlp = spacy.load('pt')

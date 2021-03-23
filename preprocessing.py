@@ -2,10 +2,11 @@ import re
 import spacy
 
 class TextPreprocessor:
-    def __init__(self, lemmatize=False):
+    def __init__(self, clean=True, lemmatize=False):
         if lemmatize:
             self.nlp = spacy.load('pt')
-        self.applyLemmatization = lemmatize
+        self.shoudClean = clean
+        self.shoudLemmatize = lemmatize
 
     def lemmatize(self, text):
         tokens = self.nlp(text)
@@ -19,7 +20,8 @@ class TextPreprocessor:
         return text
 
     def preprocess(self, text):
-        if self.applyLemmatization:
+        if self.shoudLemmatize:
             text = self.lemmatize(text)
-        text = self.cleanText(text)
+        if self.shoudClean:
+            text = self.cleanText(text)
         return text
