@@ -23,6 +23,7 @@ nltk = "*"
 seaborn = "*"
 dash = "*"
 dash-bootstrap-components = "*"
+google-search = "*"
 
 [requires]
 python_version = "3.7"
