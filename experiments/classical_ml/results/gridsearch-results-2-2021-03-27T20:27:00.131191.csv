@@ -1,0 +1,241 @@
+mean_fit_time,std_fit_time,mean_score_time,std_score_time,param_clf,param_vect__max_features,param_vect__ngram_range,param_clf__C,params,split0_test_score,split1_test_score,split2_test_score,split3_test_score,split4_test_score,mean_test_score,std_test_score,rank_test_score
+184.07774152755738,11.026473117992996,2.4681636333465575,1.4948931511601542,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",1000,"(1, 3)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 1000, 'vect__ngram_range': (1, 3)}",0.8457752255947498,0.8949958982772764,0.9081214109926169,0.889253486464315,0.8366174055829229,0.8749526853823764,0.028380717011040595,34
+181.39580578804015,25.52541977526291,3.734854888916016,3.228047743016081,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",1000,"(1, 5)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 1000, 'vect__ngram_range': (1, 5)}",0.844954881050041,0.8933552091878589,0.9105824446267432,0.8712059064807219,0.8218390804597702,0.8683875043610272,0.032023698292924035,36
+201.44385838508606,10.31723606675277,3.7950969696044923,2.0171295781832392,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",1000,"(1, 7)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 1000, 'vect__ngram_range': (1, 7)}",0.8539786710418376,0.8917145200984413,0.9023789991796555,0.8867924528301887,0.8234811165845649,0.8716691519469377,0.029012637238729343,35
+176.1094612121582,12.137662990614508,3.1026405334472655,1.9322039455145825,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",5000,"(1, 3)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 5000, 'vect__ngram_range': (1, 3)}",0.8498769483182936,0.9023789991796555,0.9105824446267432,0.8810500410172273,0.8415435139573071,0.8770863894198453,0.02749931649359793,33
+197.47355365753174,20.229677941996503,3.4818155765533447,0.8980599336201038,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",5000,"(1, 5)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 5000, 'vect__ngram_range': (1, 5)}",0.8556193601312552,0.8933552091878589,0.9155045118949959,0.881870385561936,0.8563218390804598,0.8805342611713012,0.02278628556587909,25
+189.23733873367308,13.512022487875651,2.4850471019744873,1.4237561529734737,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",5000,"(1, 7)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 5000, 'vect__ngram_range': (1, 7)}",0.8589007383100903,0.8990976210008204,0.9122231337161608,0.8785890073831009,0.8472906403940886,0.8792202281608523,0.024154010862082416,29
+161.74529385566711,7.166898336975996,1.4520082950592041,0.5957857976423153,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",10000,"(1, 3)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 10000, 'vect__ngram_range': (1, 3)}",0.8531583264971287,0.8949958982772764,0.9089417555373257,0.8810500410172273,0.8481116584564861,0.8772515359570889,0.02350819539955062,32
+166.07414264678954,8.720212320580279,1.686514711380005,0.6677193031824966,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",10000,"(1, 5)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 10000, 'vect__ngram_range': (1, 5)}",0.8572600492206727,0.8941755537325676,0.9097621000820345,0.8884331419196062,0.8448275862068966,0.8788916862323555,0.02410771272433758,30
+174.48734560012818,4.504672087942825,2.6129823684692384,1.487522115662356,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",10000,"(1, 7)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 10000, 'vect__ngram_range': (1, 7)}",0.8605414273995078,0.8900738310090238,0.918785890073831,0.8867924528301887,0.8415435139573071,0.8795474230539717,0.026489537528647397,28
+160.61689171791076,9.685654142778418,1.6054936408996583,0.8689269080262516,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",20000,"(1, 3)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 20000, 'vect__ngram_range': (1, 3)}",0.8482362592288761,0.8990976210008204,0.9155045118949959,0.8826907301066448,0.8472906403940886,0.8785639525250852,0.02720682191345628,31
+166.45923933982849,7.9207686342786765,1.658691120147705,1.1488197960822175,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",20000,"(1, 5)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 20000, 'vect__ngram_range': (1, 5)}",0.8580803937653815,0.8982772764561116,0.9204265791632485,0.8851517637407711,0.8390804597701149,0.8802032945791254,0.028808259488600337,26
+160.994970369339,18.192454648501695,1.695920181274414,0.5875655251910591,"XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None)",20000,"(1, 7)",,"{'clf': XGBClassifier(base_score=None, booster=None, colsample_bylevel=None,
+              colsample_bynode=None, colsample_bytree=None, gamma=None,
+              gpu_id=None, importance_type='gain', interaction_constraints=None,
+              learning_rate=None, max_delta_step=None, max_depth=None,
+              min_child_weight=None, missing=nan, monotone_constraints=None,
+              n_estimators=100, n_jobs=None, num_parallel_tree=None,
+              random_state=None, reg_alpha=None, reg_lambda=None,
+              scale_pos_weight=None, subsample=None, tree_method=None,
+              validate_parameters=None, verbosity=None), 'vect__max_features': 20000, 'vect__ngram_range': (1, 7)}",0.8589007383100903,0.9007383100902379,0.911402789171452,0.8908941755537325,0.8382594417077176,0.880039090966646,0.027284945094441435,27
+61.927780055999754,22.5955893752627,2.888747978210449,0.5400823817525133,"SVC(C=1, probability=True)",1000,"(1, 3)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 1000, 'vect__ngram_range': (1, 3)}",0.8703855619360131,0.9023789991796555,0.9179655455291222,0.9089417555373257,0.8456486042692939,0.8890640932902821,0.026987012940480563,19
+54.99499697685242,5.7673248874018626,2.836630630493164,0.6203202342591319,"SVC(C=1, probability=True)",1000,"(1, 5)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 1000, 'vect__ngram_range': (1, 5)}",0.8703855619360131,0.9023789991796555,0.9171452009844134,0.9097621000820345,0.8415435139573071,0.8882430752278847,0.028277077125204324,20
+61.34629302024841,6.4363812255252135,2.908603620529175,0.6698418732600028,"SVC(C=1, probability=True)",1000,"(1, 7)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 1000, 'vect__ngram_range': (1, 7)}",0.8712059064807219,0.9023789991796555,0.9179655455291222,0.9089417555373257,0.8399014778325123,0.8880787369118675,0.028770558130059447,21
+105.41784319877624,6.014412605451228,4.040178728103638,0.9034312034968165,"SVC(C=1, probability=True)",5000,"(1, 3)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 5000, 'vect__ngram_range': (1, 3)}",0.8876127973748975,0.9220672682526662,0.92616899097621,0.9089417555373257,0.8645320197044335,0.9018645663691066,0.023003359690859964,15
+188.6907031059265,18.054547046487446,8.049947452545165,1.564113225753516,"SVC(C=1, probability=True)",5000,"(1, 5)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 5000, 'vect__ngram_range': (1, 5)}",0.8876127973748975,0.9204265791632485,0.9286300246103364,0.911402789171452,0.8645320197044335,0.9025208420048736,0.02343755208823599,13
+220.09278769493102,23.3961836315039,7.678744697570801,0.9712829847865613,"SVC(C=1, probability=True)",5000,"(1, 7)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 5000, 'vect__ngram_range': (1, 7)}",0.8876127973748975,0.9196062346185397,0.9278096800656276,0.9122231337161608,0.8628899835796388,0.9020283658709729,0.023736943805701387,14
+137.87078313827516,32.04567712511667,4.91646728515625,1.0521997158851537,"SVC(C=1, probability=True)",10000,"(1, 3)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 10000, 'vect__ngram_range': (1, 3)}",0.8876127973748975,0.9310910582444627,0.9368334700574241,0.9155045118949959,0.8686371100164204,0.9079357895176402,0.02602282916590673,4
+127.49805760383606,14.20124091709097,5.042616844177246,0.9290133151022624,"SVC(C=1, probability=True)",10000,"(1, 5)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 10000, 'vect__ngram_range': (1, 5)}",0.8884331419196062,0.9302707136997539,0.9376538146021329,0.9138638228055783,0.867816091954023,0.9076075169962188,0.02610193867701716,5
+130.30151076316832,13.72184839787704,5.280195522308349,1.0356590656949005,"SVC(C=1, probability=True)",10000,"(1, 7)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 10000, 'vect__ngram_range': (1, 7)}",0.8884331419196062,0.9286300246103364,0.9368334700574241,0.9163248564397046,0.867816091954023,0.9076075169962188,0.025780257299575865,5
+135.1770010471344,13.815263674903964,5.497436428070069,1.0168020597128646,"SVC(C=1, probability=True)",20000,"(1, 3)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 20000, 'vect__ngram_range': (1, 3)}",0.8908941755537325,0.9286300246103364,0.9384741591468416,0.9179655455291222,0.8727422003284072,0.9097412210336879,0.024389123818009648,1
+140.62138109207154,15.163435851593349,5.849913024902344,1.1012677921547995,"SVC(C=1, probability=True)",20000,"(1, 5)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 20000, 'vect__ngram_range': (1, 5)}",0.8884331419196062,0.92616899097621,0.9368334700574241,0.9196062346185397,0.8711001642036125,0.9084284003550784,0.024656553259870043,3
+144.86547536849974,14.353136678281123,5.825953531265259,1.1093399112838864,"SVC(C=1, probability=True)",20000,"(1, 7)",1,"{'clf': SVC(C=1, probability=True), 'clf__C': 1, 'vect__max_features': 20000, 'vect__ngram_range': (1, 7)}",0.889253486464315,0.9269893355209188,0.9368334700574241,0.9212469237079574,0.8702791461412152,0.9089204723783659,0.02504996241668076,2
+51.597669982910155,4.7013856419008375,2.5350790500640867,0.46555594479230167,"SVC(C=1, probability=True)",1000,"(1, 3)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 1000, 'vect__ngram_range': (1, 3)}",0.8703855619360131,0.896636587366694,0.9171452009844134,0.9073010664479081,0.8382594417077176,0.8859455716885491,0.02849509690067566,22
+56.94304165840149,7.160736057262336,2.7087872505187987,0.7781795884607453,"SVC(C=1, probability=True)",1000,"(1, 5)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 1000, 'vect__ngram_range': (1, 5)}",0.8687448728465955,0.9007383100902379,0.9163248564397046,0.9056603773584906,0.8349753694581281,0.8852887572386313,0.029739092602060466,23
+61.291944122314455,7.5982228285098685,2.9351413249969482,0.45583692634716216,"SVC(C=1, probability=True)",1000,"(1, 7)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 1000, 'vect__ngram_range': (1, 7)}",0.8695652173913043,0.9007383100902379,0.9163248564397046,0.9023789991796555,0.8341543513957307,0.8846323468993266,0.029508667540590196,24
+92.76374282836915,8.412634191628742,4.065372943878174,0.668466511297804,"SVC(C=1, probability=True)",5000,"(1, 3)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 5000, 'vect__ngram_range': (1, 3)}",0.8794093519278097,0.92616899097621,0.9228876127973749,0.9073010664479081,0.8653530377668309,0.9002240119832268,0.0240254046905711,16
+97.46962280273438,10.786426832237431,4.321956777572632,0.8146025602059361,"SVC(C=1, probability=True)",5000,"(1, 5)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 5000, 'vect__ngram_range': (1, 5)}",0.8810500410172273,0.9228876127973749,0.9245283018867925,0.9073010664479081,0.8620689655172413,0.8995671975333087,0.02439554761342356,17
+102.19588866233826,9.836445057215169,4.438122177124024,0.9217467514521749,"SVC(C=1, probability=True)",5000,"(1, 7)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 5000, 'vect__ngram_range': (1, 7)}",0.8835110746513536,0.9220672682526662,0.9228876127973749,0.9081214109926169,0.861247947454844,0.899567062829771,0.023872299959817947,18
+115.99255795478821,13.124548658628996,4.787627506256103,0.6954754181008446,"SVC(C=1, probability=True)",10000,"(1, 3)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 10000, 'vect__ngram_range': (1, 3)}",0.8876127973748975,0.92616899097621,0.9351927809680065,0.9105824446267432,0.867816091954023,0.905474621179976,0.024798086200024248,9
+120.0079170703888,12.596384433258818,4.923961544036866,0.7595142979496556,"SVC(C=1, probability=True)",10000,"(1, 5)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 10000, 'vect__ngram_range': (1, 5)}",0.8876127973748975,0.9220672682526662,0.9351927809680065,0.9097621000820345,0.8653530377668309,0.9039975968888871,0.024878688208346746,12
+121.29643316268921,11.64657103087717,5.099997520446777,1.240550306775655,"SVC(C=1, probability=True)",10000,"(1, 7)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 10000, 'vect__ngram_range': (1, 7)}",0.8876127973748975,0.9237079573420837,0.9360131255127153,0.911402789171452,0.8628899835796388,0.9043253305961574,0.026176667989573375,11
+207.85339908599855,25.35273026326069,10.251483011245728,1.6642153189326612,"SVC(C=1, probability=True)",20000,"(1, 3)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 20000, 'vect__ngram_range': (1, 3)}",0.8884331419196062,0.9245283018867925,0.9376538146021329,0.9146841673502871,0.8661740558292282,0.9062946963176094,0.025748564288341116,7
+245.1327362060547,60.18945695332977,7.844816970825195,1.2626547394818721,"SVC(C=1, probability=True)",20000,"(1, 5)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 20000, 'vect__ngram_range': (1, 5)}",0.8876127973748975,0.9204265791632485,0.9376538146021329,0.9155045118949959,0.8653530377668309,0.9053101481604212,0.025644926176303172,10
+150.10038061141967,16.517796471501164,6.241742038726807,1.601573317281055,"SVC(C=1, probability=True)",20000,"(1, 7)",0.75,"{'clf': SVC(C=1, probability=True), 'clf__C': 0.75, 'vect__max_features': 20000, 'vect__ngram_range': (1, 7)}",0.889253486464315,0.9220672682526662,0.9376538146021329,0.9163248564397046,0.8637110016420362,0.9058020854801709,0.026211955270085442,8
+10.511252450942994,0.9754034069647457,0.5909379005432129,0.25519783067637014,RandomForestClassifier(),1000,"(1, 3)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 1000, 'vect__ngram_range': (1, 3)}",0.8433141919606235,0.8712059064807219,0.8810500410172273,0.8506972928630024,0.8070607553366174,0.8506656375316386,0.025692586981310432,47
+16.16323823928833,2.2838757206886875,0.9471992969512939,0.3950641735991042,RandomForestClassifier(),1000,"(1, 5)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 1000, 'vect__ngram_range': (1, 5)}",0.8498769483182936,0.8679245283018868,0.8769483182936834,0.8457752255947498,0.8004926108374384,0.8482035262692105,0.026458304656801712,48
+22.913979244232177,2.536187889763392,1.0982329368591308,0.43106920775272045,RandomForestClassifier(),1000,"(1, 7)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 1000, 'vect__ngram_range': (1, 7)}",0.8474159146841673,0.867104183757178,0.8826907301066448,0.8531583264971287,0.8119868637110016,0.8524712037512241,0.023631985742685352,46
+11.346158504486084,1.4673472960928142,0.7048025131225586,0.45956686550480885,RandomForestClassifier(),5000,"(1, 3)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 5000, 'vect__ngram_range': (1, 3)}",0.8564397046759639,0.8785890073831009,0.8876127973748975,0.8547990155865464,0.8292282430213465,0.861333753608371,0.02042425151692745,42
+16.504297828674318,2.1985908082874555,0.9628023147583008,0.3514472891394214,RandomForestClassifier(),5000,"(1, 5)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 5000, 'vect__ngram_range': (1, 5)}",0.8580803937653815,0.8753076292042657,0.8835110746513536,0.8539786710418376,0.8275862068965517,0.8596927951118779,0.019376364688826045,44
+22.374698543548583,2.889596918534068,1.292628860473633,0.6848571779762548,RandomForestClassifier(),5000,"(1, 7)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 5000, 'vect__ngram_range': (1, 7)}",0.8531583264971287,0.8720262510254306,0.8835110746513536,0.8547990155865464,0.819376026272578,0.8565741388066075,0.021738834821587744,45
+11.107431793212891,1.4321815211777902,0.7621586799621582,0.4150613829402374,RandomForestClassifier(),10000,"(1, 3)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 10000, 'vect__ngram_range': (1, 3)}",0.8547990155865464,0.881870385561936,0.8999179655455292,0.8589007383100903,0.8275862068965517,0.8646148623801307,0.024674624870376877,40
+16.47064414024353,2.239790001492626,0.9886876583099365,0.39914645620579875,RandomForestClassifier(),10000,"(1, 5)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 10000, 'vect__ngram_range': (1, 5)}",0.8613617719442166,0.8785890073831009,0.8941755537325676,0.8539786710418376,0.8316912972085386,0.8639592602620523,0.021329015159116085,41
+22.413241386413574,3.121614172065552,1.2394708156585694,0.6021239464576594,RandomForestClassifier(),10000,"(1, 7)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 10000, 'vect__ngram_range': (1, 7)}",0.8613617719442166,0.8802296964725185,0.8876127973748975,0.8630024610336341,0.8308702791461412,0.8646154011942816,0.019619415839554333,39
+10.848333644866944,1.5723092240483716,0.7276889324188233,0.4180207040886675,RandomForestClassifier(),20000,"(1, 3)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 20000, 'vect__ngram_range': (1, 3)}",0.8482362592288761,0.8859721082854799,0.8999179655455292,0.8515176374077112,0.8185550082101807,0.8608397957355555,0.0289568351662778,43
+16.706181144714357,2.0951426698833275,1.0063901901245118,0.4691877517256163,RandomForestClassifier(),20000,"(1, 5)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 20000, 'vect__ngram_range': (1, 5)}",0.859721082854799,0.874487284659557,0.8999179655455292,0.8605414273995078,0.8300492610837439,0.8649434043086274,0.022709279422037484,38
+22.33632164001465,3.456635421983731,1.1598989486694335,0.4324736502704192,RandomForestClassifier(),20000,"(1, 7)",,"{'clf': RandomForestClassifier(), 'vect__max_features': 20000, 'vect__ngram_range': (1, 7)}",0.859721082854799,0.8876127973748975,0.889253486464315,0.867104183757178,0.8333333333333334,0.8674049767569045,0.020521807805718637,37

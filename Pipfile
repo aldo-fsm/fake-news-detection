@@ -23,6 +23,10 @@ nltk = "*"
 seaborn = "*"
 dash = "*"
 dash-bootstrap-components = "*"
+xgboost = "*"
+ktrain = "*"
+torch = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.7"
