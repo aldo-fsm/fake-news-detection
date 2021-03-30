@@ -22,3 +22,24 @@ def preprocess(text):
 #     text = lemmatize(text)
     text = cleanText(text)
     return text
+
+def splitSentences(text, abbreviations=[]):
+    # !!! vira .
+    text = re.sub('!+', '.', text)
+    # ... vira .
+    text = re.sub(r'\.+', '.',text)
+
+    # pontos dentro de parenteses são removidos
+    cleanChunk = lambda match : match.string[match.start():match.end()].replace('.', '')
+    for start, end in [['\(', '\)'], ['\"', '\"'], ["\'", "\'"]]:
+        chunkRegex = fr'(?<=[{start}])[^{start}{end}]*(?=[{end}])'
+        text = re.sub(chunkRegex, cleanChunk, text)
+    
+    for abbreviationsEntity in abbreviations:
+        for abbreviation in abbreviationsEntity[ENTITY.SYNONYM_LIST_FIELD]:
+            text = re.sub(rf' ["\(\']?{abbreviation}\.', f' {abbreviation}',text)
+
+    # não tem numero antes ?<![0-9])\. ou
+    # não tem numero depois \.(?![0-9])
+    sentences = re.split(r'(?<![0-9])\.|\.(?![0-9])', text)
+    return [sentence for sentence in sentences if sentence]
