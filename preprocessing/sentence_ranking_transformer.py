@@ -17,7 +17,7 @@ class SentenceRankingTransformer(TransformerMixin):
     allSentences = [sent for sents in sentenceLists for sent in sents]
     numSentences = [len(item) for item in sentenceLists]
     probas = self.classifier.predict_proba(allSentences)
-    textIndexes = np.repeat(range(len(sentences)), numSentences)
+    textIndexes = np.repeat(range(len(sentenceLists)), numSentences)
     sentencesWithProbas = pd.DataFrame({
       'textIndex': textIndexes,
       'sentence': allSentences,
