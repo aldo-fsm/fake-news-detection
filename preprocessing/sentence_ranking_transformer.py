@@ -1,5 +1,5 @@
 import numpy as np
-from preprocessing import splitSentences
+from preprocessing import putEndDot, splitSentences
 import pandas as pd
 from sklearn.base import TransformerMixin
 
@@ -27,4 +27,4 @@ class SentenceRankingTransformer(TransformerMixin):
       by=['textIndex', f'{self.rankByProbaLabel}Proba'],
       ascending=[True, False]
     )
-    return sortedSentences.groupby(by='textIndex').sentence.agg(lambda sentences: ' . '.join(sentences))
+    return sortedSentences.groupby(by='textIndex').sentence.agg(lambda sentences: putEndDot('. '.join(sentences)))

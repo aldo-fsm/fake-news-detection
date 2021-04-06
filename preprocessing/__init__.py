@@ -34,7 +34,7 @@ def splitSentences(text, abbreviations=[]):
     for start, end in [['\(', '\)'], ['\"', '\"'], ["\'", "\'"]]:
         chunkRegex = fr'(?<=[{start}])[^{start}{end}]*(?=[{end}])'
         text = re.sub(chunkRegex, cleanChunk, text)
-    
+
     for abbreviationsEntity in abbreviations:
         for abbreviation in abbreviationsEntity[ENTITY.SYNONYM_LIST_FIELD]:
             text = re.sub(rf' ["\(\']?{abbreviation}\.', f' {abbreviation}',text)
@@ -43,3 +43,11 @@ def splitSentences(text, abbreviations=[]):
     # não tem numero depois \.(?![0-9])
     sentences = re.split(r'(?<![0-9])\.|\.(?![0-9])', text)
     return [sentence for sentence in sentences if sentence]
+
+def putEndDot(text: str) -> str:
+    text = text.strip()
+    lastChar = text[-1]
+    if lastChar in ['.', '!', '?']:
+        text = text[:-1]
+    text = text + '.'
+    return text
