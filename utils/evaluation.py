@@ -9,9 +9,9 @@ def evaluate(clf, X_test, ytrue):
     return ypred
 
 
-def sizeDistributionByLabel(labels, sizes):
+def sizeDistributionByLabel(labels, sizes, **kwargs):
     df = pd.DataFrame(dict(
         label=labels,
         size=sizes,
     ))
-    return sns.histplot(df, x='size', hue='label', multiple='fill')
+    return sns.histplot(df, x='size', hue='label', multiple='fill', **kwargs)
